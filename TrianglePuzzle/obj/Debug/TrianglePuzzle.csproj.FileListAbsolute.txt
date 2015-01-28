@@ -1,0 +1,8 @@
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\bin\Debug\TrianglePuzzle.exe.config
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\bin\Debug\TrianglePuzzle.exe
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\bin\Debug\TrianglePuzzle.pdb
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\obj\Debug\TrianglePuzzle.Form1.resources
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\obj\Debug\TrianglePuzzle.Properties.Resources.resources
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\obj\Debug\TrianglePuzzle.csproj.GenerateResource.Cache
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\obj\Debug\TrianglePuzzle.exe
+c:\users\justin\documents\visual studio 2012\Projects\TrianglePuzzle\TrianglePuzzle\obj\Debug\TrianglePuzzle.pdb
