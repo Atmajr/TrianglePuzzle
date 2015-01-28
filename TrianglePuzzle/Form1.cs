@@ -25,7 +25,7 @@ namespace TrianglePuzzle
             int position = 0; //the position of the number chosen from each line for our sum
             int lineCounter = 0; //which line of the triangle are we working with
             int numberCount = 0; //which number in a line are we working
-            int[][] triangleArray = new int[100][]; //an array to hold each our lines
+            int[][] triangleArray = new int[4][]; //an array to hold each our lines
             string filename = "";
 
             OpenFileDialog fDialog = new OpenFileDialog();
@@ -50,6 +50,7 @@ namespace TrianglePuzzle
                     foreach (string number in numbers) //read the numbers into an array
                     {
                         tempArray[numberCount] = Convert.ToInt32(number);
+                        numberCount++;
                     }
 
                     triangleArray[lineCounter] = tempArray; //add our array for this line into our array for the entire triangle
@@ -58,14 +59,12 @@ namespace TrianglePuzzle
 
                 foreach (int[] lineArray in triangleArray)
                 {
-                    if ((position > 0) && (lineArray[position] < lineArray[position + 1]))
+                    if ((lineArray.Length > 1) && (lineArray[position] < lineArray[position + 1]))
                     {
-                        maximumSum = maximumSum + lineArray[position + 1];
+                        position++;
                     }
-                    else
-                    {
+
                         maximumSum = maximumSum + lineArray[position];
-                    }
 
 
                 }
