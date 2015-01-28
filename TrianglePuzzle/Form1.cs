@@ -25,7 +25,7 @@ namespace TrianglePuzzle
             int position = 0; //the position of the number chosen from each line for our sum
             int lineCounter = 0; //which line of the triangle are we working with
             int numberCount = 0; //which number in a line are we working
-            int[][] triangleArray = new int[4][]; //an array to hold each our lines
+            int[][] triangleArray = new int[100][]; //an array to hold each our lines
             string filename = "";
 
             OpenFileDialog fDialog = new OpenFileDialog();
